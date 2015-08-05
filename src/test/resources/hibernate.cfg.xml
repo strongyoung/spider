@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration SYSTEM  "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+   <session-factory>
+   <!-- MySQL对应的 hibernate.dialect是org.hibernate.dialect.MySQLDialect 
+   不同类型的数据库对应不同的Dialect -->
+   <property name="hibernate.dialect">
+      org.hibernate.dialect.MySQLDialect
+   </property>
+   <property name="hibernate.connection.driver_class">
+      com.mysql.jdbc.Driver
+   </property>
+
+   <!-- 配置连接URL，forconsumer是数据库的名字 -->
+   <property name="hibernate.connection.url">
+      jdbc:mysql://localhost/forconsumer
+   </property>
+   <property name="hibernate.connection.username">
+      root
+   </property>
+   <property name="hibernate.connection.password">
+      apple
+   </property>
+
+   <!-- XML mapping files 列表 -->
+   <!-- 种子表Seed -->
+   <mapping resource="Seed.hbm.xml"/> 
+   <!-- 产品表Product -->
+   <!--  <mapping resource="Product.hbm.xml"/> -->
+
+</session-factory>
+</hibernate-configuration>
