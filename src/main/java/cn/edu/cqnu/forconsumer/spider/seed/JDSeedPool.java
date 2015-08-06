@@ -25,7 +25,7 @@ public class JDSeedPool implements SeedPool{
 	/**
 	 * 初始化种子数量
 	 */
-	private static int INIT_SEED_NUM = 100;
+	private static int INIT_SEED_NUM = 50;
 	
 	private static Logger log = LogManager.getLogger(JDSeedPool.class.getName());
 	
@@ -76,7 +76,7 @@ public class JDSeedPool implements SeedPool{
 				String strSeed = iter.next();
 				seed.remove(strSeed);
 				if(seed.size()==0){
-					/*
+					
 					System.out.println("当前种子池里的种子已使用完，是否继续抓取数据？");
 					System.out.println("继续请输入y，停止请输入n");
 					System.out.println("请输入：");
@@ -85,8 +85,8 @@ public class JDSeedPool implements SeedPool{
 					if(tmp.startsWith("y")  || tmp.startsWith("Y")){
 						initSeedPool();
 					}
-					*/
-					initSeedPool();
+					
+					//initSeedPool();
 				}
 				return strSeed;
 			}

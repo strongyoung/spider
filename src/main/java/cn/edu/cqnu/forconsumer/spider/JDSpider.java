@@ -75,16 +75,21 @@ public class JDSpider implements Spider {
 			}
 			else if(strSeed.indexOf("list")>=0){//种子是全类时,把数据写入数据库
 				String strContent = fetchData(strSeed +  "&stock=0&JL=6_0_0");
-				int iPage = parser.parseProductPageSeed(strContent);  //解析分页
-				HashSet<String> hsProduct = parser.parseProductSeed(strContent);  //解析第一页的产品种子
-				db.insertProduct(hsProduct);
-				
-				int iCurrentPage = 2;
-				while(iCurrentPage <= iPage){
-					strContent = fetchData(strSeed + "&stock=0&JL=6_0_0&page="+iCurrentPage);
-					hsProduct = parser.parseProductSeed(strContent);  //解析第二页及之后的产品种子
-					db.insertProduct (hsProduct);
-					iCurrentPage ++ ;
+				if(strContent!=null){
+					int iPage = parser.parseProductPageSeed(strContent);  //解析分页
+					HashSet<String> hsProduct = parser.parseProductSeed(strContent);  //解析第一页的产品种子
+					db.insertProduct(hsProduct);
+					
+					int iCurrentPage = 2;
+					while(iCurrentPage <= iPage){
+						strContent = fetchData(strSeed + "&stock=0&JL=6_0_0&page="+iCurrentPage);
+						hsProduct = parser.parseProductSeed(strContent);  //解析第二页及之后的产品种子
+						db.insertProduct (hsProduct);
+						iCurrentPage ++ ;
+					}
+				}
+				else{
+					log.error("获取数据失败 - " + strSeed);
 				}
 			}
 			//再取种子
@@ -130,7 +135,7 @@ public class JDSpider implements Spider {
 				    	strTmp =  br.readLine();
 				    }
 					System.out.println("请求成功..."
-							+ Thread.currentThread().getName() + ":" + strSeed);
+							+ Thread.currentThread().getName() + " : " + strSeed);
 					//Thread.sleep(2000);
 					resp.close();
 					return sb.toString();
