@@ -18,3 +18,283 @@
 2015-08-05 19:44:03,691 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000006: Autocommit mode: false
 2015-08-05 19:44:03,692 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000115: Hibernate connection pool size: 20 (min=1)
 2015-08-05 19:44:03,925 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-06 10:07:20,454 INFO o.h.Version [main] HHH000412: Hibernate Core {5.0.0.CR3}
+2015-08-06 10:07:20,465 INFO o.h.c.Environment [main] HHH000206: hibernate.properties not found
+2015-08-06 10:07:20,467 INFO o.h.c.Environment [main] HHH000021: Bytecode provider name : javassist
+2015-08-06 10:07:21,032 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-06 10:07:21,949 WARN o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-06 10:07:21,984 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/forconsumer]
+2015-08-06 10:07:21,984 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000046: Connection properties: {user=root, password=****}
+2015-08-06 10:07:21,984 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000006: Autocommit mode: false
+2015-08-06 10:07:21,986 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-06 10:07:22,467 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-06 10:08:28,995 INFO o.h.Version [main] HHH000412: Hibernate Core {5.0.0.CR3}
+2015-08-06 10:08:28,998 INFO o.h.c.Environment [main] HHH000206: hibernate.properties not found
+2015-08-06 10:08:29,000 INFO o.h.c.Environment [main] HHH000021: Bytecode provider name : javassist
+2015-08-06 10:08:29,221 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-06 10:08:30,078 WARN o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-06 10:08:30,084 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/forconsumer]
+2015-08-06 10:08:30,084 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000046: Connection properties: {user=root, password=****}
+2015-08-06 10:08:30,084 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000006: Autocommit mode: false
+2015-08-06 10:08:30,085 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-06 10:08:30,307 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-06 10:08:47,306 INFO o.h.Version [main] HHH000412: Hibernate Core {5.0.0.CR3}
+2015-08-06 10:08:47,308 INFO o.h.c.Environment [main] HHH000206: hibernate.properties not found
+2015-08-06 10:08:47,310 INFO o.h.c.Environment [main] HHH000021: Bytecode provider name : javassist
+2015-08-06 10:08:47,526 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-06 10:08:48,401 WARN o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-06 10:08:48,406 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/forconsumer]
+2015-08-06 10:08:48,407 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000046: Connection properties: {user=root, password=****}
+2015-08-06 10:08:48,407 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000006: Autocommit mode: false
+2015-08-06 10:08:48,408 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-06 10:08:48,635 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-06 10:31:46,989 INFO o.h.Version [main] HHH000412: Hibernate Core {5.0.0.CR3}
+2015-08-06 10:31:46,992 INFO o.h.c.Environment [main] HHH000206: hibernate.properties not found
+2015-08-06 10:31:46,994 INFO o.h.c.Environment [main] HHH000021: Bytecode provider name : javassist
+2015-08-06 10:31:47,217 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-06 10:31:48,280 WARN o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-06 10:31:48,289 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/forconsumer]
+2015-08-06 10:31:48,289 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000046: Connection properties: {user=root, password=****}
+2015-08-06 10:31:48,290 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000006: Autocommit mode: false
+2015-08-06 10:31:48,292 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-06 10:31:48,509 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-06 10:33:20,853 INFO o.h.Version [main] HHH000412: Hibernate Core {5.0.0.CR3}
+2015-08-06 10:33:20,856 INFO o.h.c.Environment [main] HHH000206: hibernate.properties not found
+2015-08-06 10:33:20,858 INFO o.h.c.Environment [main] HHH000021: Bytecode provider name : javassist
+2015-08-06 10:33:21,080 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-06 10:33:22,352 WARN o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-06 10:33:22,359 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/forconsumer]
+2015-08-06 10:33:22,359 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000046: Connection properties: {user=root, password=****}
+2015-08-06 10:33:22,359 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000006: Autocommit mode: false
+2015-08-06 10:33:22,361 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-06 10:33:22,583 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-06 10:33:55,820 INFO o.h.Version [main] HHH000412: Hibernate Core {5.0.0.CR3}
+2015-08-06 10:33:55,822 INFO o.h.c.Environment [main] HHH000206: hibernate.properties not found
+2015-08-06 10:33:55,824 INFO o.h.c.Environment [main] HHH000021: Bytecode provider name : javassist
+2015-08-06 10:33:56,059 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-06 10:33:57,420 WARN o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-06 10:33:57,426 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/forconsumer]
+2015-08-06 10:33:57,427 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000046: Connection properties: {user=root, password=****}
+2015-08-06 10:33:57,427 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000006: Autocommit mode: false
+2015-08-06 10:33:57,430 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-06 10:33:57,645 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-06 10:34:49,880 INFO o.h.Version [main] HHH000412: Hibernate Core {5.0.0.CR3}
+2015-08-06 10:34:49,884 INFO o.h.c.Environment [main] HHH000206: hibernate.properties not found
+2015-08-06 10:34:49,886 INFO o.h.c.Environment [main] HHH000021: Bytecode provider name : javassist
+2015-08-06 10:34:50,122 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-06 10:34:51,475 WARN o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-06 10:34:51,481 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/forconsumer]
+2015-08-06 10:34:51,482 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000046: Connection properties: {user=root, password=****}
+2015-08-06 10:34:51,482 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000006: Autocommit mode: false
+2015-08-06 10:34:51,484 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-06 10:34:51,710 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-06 10:35:47,309 INFO o.h.Version [main] HHH000412: Hibernate Core {5.0.0.CR3}
+2015-08-06 10:35:47,312 INFO o.h.c.Environment [main] HHH000206: hibernate.properties not found
+2015-08-06 10:35:47,314 INFO o.h.c.Environment [main] HHH000021: Bytecode provider name : javassist
+2015-08-06 10:35:47,522 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-06 10:35:48,545 WARN o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-06 10:35:48,551 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/forconsumer]
+2015-08-06 10:35:48,552 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000046: Connection properties: {user=root, password=****}
+2015-08-06 10:35:48,553 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000006: Autocommit mode: false
+2015-08-06 10:35:48,555 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-06 10:35:48,766 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-06 11:07:52,078 INFO o.h.Version [main] HHH000412: Hibernate Core {5.0.0.CR3}
+2015-08-06 11:07:52,083 INFO o.h.c.Environment [main] HHH000206: hibernate.properties not found
+2015-08-06 11:07:52,085 INFO o.h.c.Environment [main] HHH000021: Bytecode provider name : javassist
+2015-08-06 11:07:52,376 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-06 11:07:53,890 WARN o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-06 11:07:53,931 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/forconsumer]
+2015-08-06 11:07:53,932 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000046: Connection properties: {user=root, password=****}
+2015-08-06 11:07:53,932 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000006: Autocommit mode: false
+2015-08-06 11:07:53,933 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-06 11:07:54,201 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-06 11:08:17,951 INFO o.h.Version [main] HHH000412: Hibernate Core {5.0.0.CR3}
+2015-08-06 11:08:17,955 INFO o.h.c.Environment [main] HHH000206: hibernate.properties not found
+2015-08-06 11:08:17,958 INFO o.h.c.Environment [main] HHH000021: Bytecode provider name : javassist
+2015-08-06 11:08:18,261 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-06 11:08:19,774 WARN o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-06 11:08:19,790 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/forconsumer]
+2015-08-06 11:08:19,791 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000046: Connection properties: {user=root, password=****}
+2015-08-06 11:08:19,792 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000006: Autocommit mode: false
+2015-08-06 11:08:19,794 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-06 11:08:20,055 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-06 11:09:13,729 INFO o.h.Version [main] HHH000412: Hibernate Core {5.0.0.CR3}
+2015-08-06 11:09:13,732 INFO o.h.c.Environment [main] HHH000206: hibernate.properties not found
+2015-08-06 11:09:13,735 INFO o.h.c.Environment [main] HHH000021: Bytecode provider name : javassist
+2015-08-06 11:09:14,026 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-06 11:09:15,545 WARN o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-06 11:09:15,554 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/forconsumer]
+2015-08-06 11:09:15,555 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000046: Connection properties: {user=root, password=****}
+2015-08-06 11:09:15,555 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000006: Autocommit mode: false
+2015-08-06 11:09:15,557 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-06 11:09:15,867 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-06 11:09:28,841 INFO o.h.Version [main] HHH000412: Hibernate Core {5.0.0.CR3}
+2015-08-06 11:09:28,846 INFO o.h.c.Environment [main] HHH000206: hibernate.properties not found
+2015-08-06 11:09:28,848 INFO o.h.c.Environment [main] HHH000021: Bytecode provider name : javassist
+2015-08-06 11:09:29,150 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-06 11:09:30,642 WARN o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-06 11:09:30,673 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/forconsumer]
+2015-08-06 11:09:30,674 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000046: Connection properties: {user=root, password=****}
+2015-08-06 11:09:30,674 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000006: Autocommit mode: false
+2015-08-06 11:09:30,677 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-06 11:09:30,953 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-06 11:12:17,583 INFO o.h.Version [main] HHH000412: Hibernate Core {5.0.0.CR3}
+2015-08-06 11:12:17,586 INFO o.h.c.Environment [main] HHH000206: hibernate.properties not found
+2015-08-06 11:12:17,587 INFO o.h.c.Environment [main] HHH000021: Bytecode provider name : javassist
+2015-08-06 11:12:17,882 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-06 11:12:19,716 WARN o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-06 11:12:19,723 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/forconsumer]
+2015-08-06 11:12:19,724 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000046: Connection properties: {user=root, password=****}
+2015-08-06 11:12:19,725 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000006: Autocommit mode: false
+2015-08-06 11:12:19,727 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-06 11:12:20,007 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-06 12:49:38,549 INFO o.h.Version [main] HHH000412: Hibernate Core {5.0.0.CR3}
+2015-08-06 12:49:38,552 INFO o.h.c.Environment [main] HHH000206: hibernate.properties not found
+2015-08-06 12:49:38,554 INFO o.h.c.Environment [main] HHH000021: Bytecode provider name : javassist
+2015-08-06 12:49:38,775 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-06 12:49:40,117 WARN o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-06 12:49:40,123 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/forconsumer]
+2015-08-06 12:49:40,124 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000046: Connection properties: {user=root, password=****}
+2015-08-06 12:49:40,124 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000006: Autocommit mode: false
+2015-08-06 12:49:40,126 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-06 12:49:40,381 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-06 12:52:00,655 INFO o.h.Version [main] HHH000412: Hibernate Core {5.0.0.CR3}
+2015-08-06 12:52:00,658 INFO o.h.c.Environment [main] HHH000206: hibernate.properties not found
+2015-08-06 12:52:00,660 INFO o.h.c.Environment [main] HHH000021: Bytecode provider name : javassist
+2015-08-06 12:52:00,896 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-06 12:52:02,275 WARN o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-06 12:52:02,281 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/forconsumer]
+2015-08-06 12:52:02,282 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000046: Connection properties: {user=root, password=****}
+2015-08-06 12:52:02,282 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000006: Autocommit mode: false
+2015-08-06 12:52:02,284 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-06 12:52:02,535 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-06 12:53:00,586 INFO o.h.Version [main] HHH000412: Hibernate Core {5.0.0.CR3}
+2015-08-06 12:53:00,594 INFO o.h.c.Environment [main] HHH000206: hibernate.properties not found
+2015-08-06 12:53:00,598 INFO o.h.c.Environment [main] HHH000021: Bytecode provider name : javassist
+2015-08-06 12:53:01,192 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-06 12:53:10,693 WARN o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-06 12:53:10,706 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/forconsumer]
+2015-08-06 12:53:10,708 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000046: Connection properties: {user=root, password=****}
+2015-08-06 12:53:10,709 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000006: Autocommit mode: false
+2015-08-06 12:53:10,714 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-06 12:53:11,223 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-06 12:54:21,091 INFO o.h.Version [main] HHH000412: Hibernate Core {5.0.0.CR3}
+2015-08-06 12:54:21,100 INFO o.h.c.Environment [main] HHH000206: hibernate.properties not found
+2015-08-06 12:54:21,106 INFO o.h.c.Environment [main] HHH000021: Bytecode provider name : javassist
+2015-08-06 12:54:21,711 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-06 12:54:31,046 WARN o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-06 12:54:31,060 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/forconsumer]
+2015-08-06 12:54:31,062 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000046: Connection properties: {user=root, password=****}
+2015-08-06 12:54:31,063 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000006: Autocommit mode: false
+2015-08-06 12:54:31,068 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-06 12:54:31,594 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-06 13:05:14,037 INFO o.h.Version [main] HHH000412: Hibernate Core {5.0.0.CR3}
+2015-08-06 13:05:14,040 INFO o.h.c.Environment [main] HHH000206: hibernate.properties not found
+2015-08-06 13:05:14,042 INFO o.h.c.Environment [main] HHH000021: Bytecode provider name : javassist
+2015-08-06 13:05:14,272 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-06 13:05:15,860 WARN o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-06 13:05:15,865 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/forconsumer]
+2015-08-06 13:05:15,866 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000046: Connection properties: {user=root, password=****}
+2015-08-06 13:05:15,866 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000006: Autocommit mode: false
+2015-08-06 13:05:15,867 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-06 13:05:16,081 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-06 13:05:40,105 INFO o.h.Version [main] HHH000412: Hibernate Core {5.0.0.CR3}
+2015-08-06 13:05:40,108 INFO o.h.c.Environment [main] HHH000206: hibernate.properties not found
+2015-08-06 13:05:40,111 INFO o.h.c.Environment [main] HHH000021: Bytecode provider name : javassist
+2015-08-06 13:05:40,344 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-06 13:05:41,713 WARN o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-06 13:05:41,719 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/forconsumer]
+2015-08-06 13:05:41,720 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000046: Connection properties: {user=root, password=****}
+2015-08-06 13:05:41,720 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000006: Autocommit mode: false
+2015-08-06 13:05:41,722 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-06 13:05:41,977 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-06 13:06:20,913 INFO o.h.Version [main] HHH000412: Hibernate Core {5.0.0.CR3}
+2015-08-06 13:06:20,916 INFO o.h.c.Environment [main] HHH000206: hibernate.properties not found
+2015-08-06 13:06:20,918 INFO o.h.c.Environment [main] HHH000021: Bytecode provider name : javassist
+2015-08-06 13:06:21,139 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-06 13:06:22,483 WARN o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-06 13:06:22,490 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/forconsumer]
+2015-08-06 13:06:22,490 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000046: Connection properties: {user=root, password=****}
+2015-08-06 13:06:22,491 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000006: Autocommit mode: false
+2015-08-06 13:06:22,493 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-06 13:06:22,727 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-06 13:09:00,911 INFO o.h.Version [main] HHH000412: Hibernate Core {5.0.0.CR3}
+2015-08-06 13:09:00,914 INFO o.h.c.Environment [main] HHH000206: hibernate.properties not found
+2015-08-06 13:09:00,916 INFO o.h.c.Environment [main] HHH000021: Bytecode provider name : javassist
+2015-08-06 13:09:01,171 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-06 13:09:02,556 WARN o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-06 13:09:02,562 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/forconsumer]
+2015-08-06 13:09:02,563 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000046: Connection properties: {user=root, password=****}
+2015-08-06 13:09:02,564 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000006: Autocommit mode: false
+2015-08-06 13:09:02,566 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-06 13:09:02,805 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-06 13:10:13,533 INFO o.h.Version [main] HHH000412: Hibernate Core {5.0.0.CR3}
+2015-08-06 13:10:13,536 INFO o.h.c.Environment [main] HHH000206: hibernate.properties not found
+2015-08-06 13:10:13,537 INFO o.h.c.Environment [main] HHH000021: Bytecode provider name : javassist
+2015-08-06 13:10:13,756 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-06 13:10:15,296 WARN o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-06 13:10:15,301 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/forconsumer]
+2015-08-06 13:10:15,302 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000046: Connection properties: {user=root, password=****}
+2015-08-06 13:10:15,302 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000006: Autocommit mode: false
+2015-08-06 13:10:15,303 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-06 13:10:15,520 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-06 13:12:47,899 INFO o.h.Version [main] HHH000412: Hibernate Core {5.0.0.CR3}
+2015-08-06 13:12:47,903 INFO o.h.c.Environment [main] HHH000206: hibernate.properties not found
+2015-08-06 13:12:47,905 INFO o.h.c.Environment [main] HHH000021: Bytecode provider name : javassist
+2015-08-06 13:12:48,155 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-06 13:12:49,697 WARN o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-06 13:12:49,702 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/forconsumer]
+2015-08-06 13:12:49,703 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000046: Connection properties: {user=root, password=****}
+2015-08-06 13:12:49,703 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000006: Autocommit mode: false
+2015-08-06 13:12:49,704 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-06 13:12:49,945 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-06 13:14:36,416 INFO o.h.Version [main] HHH000412: Hibernate Core {5.0.0.CR3}
+2015-08-06 13:14:36,419 INFO o.h.c.Environment [main] HHH000206: hibernate.properties not found
+2015-08-06 13:14:36,420 INFO o.h.c.Environment [main] HHH000021: Bytecode provider name : javassist
+2015-08-06 13:14:36,659 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-06 13:14:38,065 WARN o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-06 13:14:38,072 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/forconsumer]
+2015-08-06 13:14:38,073 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000046: Connection properties: {user=root, password=****}
+2015-08-06 13:14:38,073 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000006: Autocommit mode: false
+2015-08-06 13:14:38,075 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-06 13:14:38,319 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-06 13:19:01,905 INFO o.h.Version [main] HHH000412: Hibernate Core {5.0.0.CR3}
+2015-08-06 13:19:01,909 INFO o.h.c.Environment [main] HHH000206: hibernate.properties not found
+2015-08-06 13:19:01,910 INFO o.h.c.Environment [main] HHH000021: Bytecode provider name : javassist
+2015-08-06 13:19:02,141 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-06 13:19:03,772 WARN o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-06 13:19:03,779 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/forconsumer]
+2015-08-06 13:19:03,780 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000046: Connection properties: {user=root, password=****}
+2015-08-06 13:19:03,780 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000006: Autocommit mode: false
+2015-08-06 13:19:03,782 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-06 13:19:04,001 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-06 13:19:41,680 INFO o.h.Version [main] HHH000412: Hibernate Core {5.0.0.CR3}
+2015-08-06 13:19:41,683 INFO o.h.c.Environment [main] HHH000206: hibernate.properties not found
+2015-08-06 13:19:41,686 INFO o.h.c.Environment [main] HHH000021: Bytecode provider name : javassist
+2015-08-06 13:19:41,897 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-06 13:19:43,422 WARN o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-06 13:19:43,427 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/forconsumer]
+2015-08-06 13:19:43,427 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000046: Connection properties: {user=root, password=****}
+2015-08-06 13:19:43,428 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000006: Autocommit mode: false
+2015-08-06 13:19:43,429 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-06 13:19:43,662 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-06 13:26:42,049 INFO o.h.Version [main] HHH000412: Hibernate Core {5.0.0.CR3}
+2015-08-06 13:26:42,053 INFO o.h.c.Environment [main] HHH000206: hibernate.properties not found
+2015-08-06 13:26:42,056 INFO o.h.c.Environment [main] HHH000021: Bytecode provider name : javassist
+2015-08-06 13:26:42,292 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-06 13:26:43,596 WARN o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-06 13:26:43,602 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/forconsumer]
+2015-08-06 13:26:43,603 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000046: Connection properties: {user=root, password=****}
+2015-08-06 13:26:43,603 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000006: Autocommit mode: false
+2015-08-06 13:26:43,604 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-06 13:26:43,852 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-06 13:39:08,854 INFO o.h.Version [main] HHH000412: Hibernate Core {5.0.0.CR3}
+2015-08-06 13:39:08,858 INFO o.h.c.Environment [main] HHH000206: hibernate.properties not found
+2015-08-06 13:39:08,860 INFO o.h.c.Environment [main] HHH000021: Bytecode provider name : javassist
+2015-08-06 13:39:09,089 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-06 13:39:10,665 WARN o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-06 13:39:10,670 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/forconsumer]
+2015-08-06 13:39:10,671 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000046: Connection properties: {user=root, password=****}
+2015-08-06 13:39:10,671 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000006: Autocommit mode: false
+2015-08-06 13:39:10,672 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-06 13:39:10,908 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect

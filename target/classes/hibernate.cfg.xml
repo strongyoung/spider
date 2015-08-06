@@ -26,8 +26,9 @@
    <!-- XML mapping files 列表 -->
    <!-- 种子表Seed -->
    <mapping resource="Seed.hbm.xml"/> 
+   <mapping resource="Sl.hbm.xml"/>
    <!-- 产品表Product -->
-   <!--  <mapping resource="Product.hbm.xml"/> -->
+   <mapping resource="Product.hbm.xml"/>
 
 </session-factory>
 </hibernate-configuration>

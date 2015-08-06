@@ -15,7 +15,7 @@ import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import cn.edu.cqnu.forconsumer.spider.hibernate.ManageSeed;
+import cn.edu.cqnu.forconsumer.spider.hibernate.DBManager;
 import cn.edu.cqnu.forconsumer.spider.model.Stat;
 import cn.edu.cqnu.forconsumer.spider.net.HttpConnectionManager;
 import cn.edu.cqnu.forconsumer.spider.net.HttpGetMethod;
@@ -63,34 +63,35 @@ public class JDSpider implements Spider {
 	}
 	
 	public void run() {
-		String strSeed = seedPool.getSeed();
+		String strSeed = seedPool.getSeed(); 
 		while(strSeed != null){
 			Parser parser = new JDParser();
-			ManageSeed ms = new ManageSeed();
+			DBManager db = new DBManager();
 			//种子是分类网址时
 			if(strSeed.indexOf("allSort")>=0){
 				String strContent = fetchData(strSeed);
 				HashSet<String> hsSeed = parser.parseCatSeed(strContent);
-				ms.insertSeed(hsSeed);
+				db.insertSeed(hsSeed);
 			}
 			else if(strSeed.indexOf("list")>=0){//种子是全类时,把数据写入数据库
 				String strContent = fetchData(strSeed +  "&stock=0&JL=6_0_0");
 				int iPage = parser.parseProductPageSeed(strContent);  //解析分页
-				HashSet<String> hsSeed = parser.parseProductSeed(strContent);  //解析第一页的产品种子
-				ms.insertSeed(hsSeed);
+				HashSet<String> hsProduct = parser.parseProductSeed(strContent);  //解析第一页的产品种子
+				db.insertProduct(hsProduct);
 				
 				int iCurrentPage = 2;
 				while(iCurrentPage <= iPage){
 					strContent = fetchData(strSeed + "&stock=0&JL=6_0_0&page="+iCurrentPage);
-					hsSeed = parser.parseProductSeed(strContent);  //解析第二页及之后的产品种子
-					ms.insertSeed(hsSeed);
+					hsProduct = parser.parseProductSeed(strContent);  //解析第二页及之后的产品种子
+					db.insertProduct (hsProduct);
 					iCurrentPage ++ ;
 				}
 			}
-			else if(strSeed.indexOf("item")>=0){ //种子是具体产品的链接地址
-				//
-			}
 			//再取种子
+			strSeed = seedPool.getSeed();
+			if(strSeed==null){
+				seedPool.initSeedPool();
+			}
 			strSeed = seedPool.getSeed();
 		}
 	}

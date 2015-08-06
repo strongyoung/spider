@@ -8,7 +8,7 @@ import java.util.Scanner;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import cn.edu.cqnu.forconsumer.spider.hibernate.ManageSeed;
+import cn.edu.cqnu.forconsumer.spider.hibernate.DBManager;
 import cn.edu.cqnu.forconsumer.util.Constant;
 
 public class JDSeedPool implements SeedPool{
@@ -57,8 +57,8 @@ public class JDSeedPool implements SeedPool{
 	 */
 	public synchronized void initSeedPool(){
 		try{
-			ManageSeed ms = new ManageSeed();
-			seed = ms.getSeed(0,INIT_SEED_NUM,Constant.JINGDONG);
+			DBManager db = new DBManager();
+			seed = db.getSeed(0,INIT_SEED_NUM,Constant.JINGDONG);
 		}catch(Exception ex){
 			log.error("初始化种子池时出错异常 - " + ex.getMessage());
 		}
@@ -76,6 +76,7 @@ public class JDSeedPool implements SeedPool{
 				String strSeed = iter.next();
 				seed.remove(strSeed);
 				if(seed.size()==0){
+					/*
 					System.out.println("当前种子池里的种子已使用完，是否继续抓取数据？");
 					System.out.println("继续请输入y，停止请输入n");
 					System.out.println("请输入：");
@@ -84,7 +85,8 @@ public class JDSeedPool implements SeedPool{
 					if(tmp.startsWith("y")  || tmp.startsWith("Y")){
 						initSeedPool();
 					}
-					//终止
+					*/
+					initSeedPool();
 				}
 				return strSeed;
 			}

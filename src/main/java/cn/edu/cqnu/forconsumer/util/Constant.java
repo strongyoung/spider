@@ -67,4 +67,9 @@ public class Constant {
 	 */
 	public static String REGEX_JD_PRODUCT = "http://item.jd.com.*?.html";
 	
+	/**
+	 * JD:商品编号正则表达式( 暂未用）
+	 */
+	public static String REGEX_JD_PRODUCT_ID = "";
+	
 }
