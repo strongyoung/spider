@@ -1,12 +1,18 @@
 package cn.edu.cqnu.forconsumer.spider.parser;
 
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
+
+import cn.edu.cqnu.forconsumer.spider.model.Price;
 import cn.edu.cqnu.forconsumer.util.Constant;
 
 public class JDParser implements Parser{
@@ -69,5 +75,19 @@ public class JDParser implements Parser{
 			hs.add(matcher.group());
 		}
 		return hs;
+	}
+	
+	/**
+	 * 解析物品价格JSON
+	 * @param strContent
+	 * @return
+	 */
+	public Price parseProductPrice(String strContent , String strOwn){
+		//HashMap<String,Float> hs = new HashMap<String,Float>();
+		//{"id":0,"name":"admin","users":[{"id":2,"name":"guest"},{"id":3,"name":"root"}]}
+		strContent = strContent.replaceAll("jQuery227170[(]", "{\"prices\":").replaceAll("[)];","}"); //注意，这里的（要用[]括起来。否则异常
+		Price price= JSON.parseObject (strContent,Price.class); 
+		price.setOwn( strOwn);
+		return price;
 	}
 }

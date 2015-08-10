@@ -32,6 +32,8 @@ public class Constant {
 	 */
 	public static String JINGDONG_OWN = ".jd.";
 	
+	public static String JINGDONG_PRICE_URL = "http://p.3.cn/prices/mgets?callback=jQuery227170&type=1&area=4_50953_50984_0&skuIds=";//"http://p.3.cn/prices/mgets?callback=jQuery227170&type=1&area=4_50953_50984_0&skuIds=";
+	
 	/**
 	 * DANGDANG：当当
 	 */

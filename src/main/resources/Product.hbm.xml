@@ -17,4 +17,8 @@
       <property name="is_visited" column="is_visited" type="byte"/>
       <property name="is_valid" column="is_valid" type="byte"/>
    </class>
+   <sql-query name="callSelectProductSP" callable="true">
+	 <return alias="seed" class="cn.edu.cqnu.forconsumer.spider.model.Product"/>
+	 {CALL selectProduct(:start,:num,:vown)}
+    </sql-query>
 </hibernate-mapping>

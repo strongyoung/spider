@@ -25,7 +25,7 @@ public class JDSeedPool implements SeedPool{
 	/**
 	 * 初始化种子数量
 	 */
-	private static int INIT_SEED_NUM = 50;
+	private static int INIT_SEED_NUM = 200;
 	
 	private static Logger log = LogManager.getLogger(JDSeedPool.class.getName());
 	

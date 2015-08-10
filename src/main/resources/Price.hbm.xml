@@ -5,16 +5,15 @@
 
 <hibernate-mapping>
    <!-- 这里的name要写全称，即包括包名，否则会提示找不到类 -->
-   <class name="cn.edu.cqnu.forconsumer.spider.model.Product" table="product">
+   <class name="cn.edu.cqnu.forconsumer.spider.model.Price" table="price">
       <!-- 元数据，介绍类的相关信息 -->
       <meta attribute="class-description">
-         商品类
+         价格类
       </meta>
       <id name="link" type="string" column="link"></id>
       <property name="product_id" column="product_id" type="string"/>
       <property name="own" column="own" type="string"/>
-      <property name="title" column="title" type="string"/>
-      <property name="is_visited" column="is_visited" type="byte"/>
-      <property name="is_valid" column="is_valid" type="byte"/>
+      <property name="date" column="date" type="date"/>
+      <property name="price" column="price" type="float"/>
    </class>
 </hibernate-mapping>

@@ -1,5 +1,6 @@
 package cn.edu.cqnu.forconsumer.spider.hibernate;
 
+import java.util.Date;
 import java.util.HashSet;
 import java.util.Iterator;
 
@@ -14,6 +15,8 @@ import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 
+import cn.edu.cqnu.forconsumer.spider.model.Price;
+import cn.edu.cqnu.forconsumer.spider.model.Prices;
 import cn.edu.cqnu.forconsumer.spider.model.Product;
 import cn.edu.cqnu.forconsumer.spider.model.Seed;
 import cn.edu.cqnu.forconsumer.spider.model.Sl;
@@ -22,7 +25,7 @@ import cn.edu.cqnu.forconsumer.util.Constant;
 public class DBManager {
 	
 	private static SessionFactory factory = null; 
-	private static int SEED_INIT_NUM = 500;
+	private static int SEED_INIT_NUM = 100;
 	private static Logger log = null;
 	
 	static {
@@ -85,7 +88,6 @@ public class DBManager {
 				seed.setIs_visited((byte)1);
 				session.update(seed);
 			    if(++count%20 == 0){
-			    	 //flush a batch of updates and release memory:
 			        session.flush();
 			        session.clear();
 			    }
@@ -93,6 +95,58 @@ public class DBManager {
 			
 			tran.commit();
 			return seedSet;
+		}catch(HibernateException he){
+			if(tran!=null)
+				tran.rollback();
+			log.error(he.getMessage());
+			return null;
+		}finally{
+			session.close();
+		}
+	}
+	
+	/**
+	 * 
+	 * @param own
+	 * @return
+	 */
+	public HashSet<String> getProduct(String own){
+		return getProduct(0,SEED_INIT_NUM,own);
+	}
+	
+	/**
+	 * 获取产品ID
+	 * @param iStart
+	 * @param iNum
+	 * @param strOwn
+	 * @return
+	 */
+	public HashSet<String> getProduct(int iStart, int iNum, String strOwn){
+		Session session =  factory.openSession();
+		Transaction tran = null;
+		try{
+			tran = session.beginTransaction();
+			HashSet<String> productSet = new HashSet<String>();
+			ScrollableResults products = session.getNamedQuery("callSelectProductSP")
+							.setParameter("start", iStart)
+							.setParameter("num", iNum)
+							.setParameter("vown", strOwn)
+							.setCacheMode(CacheMode.IGNORE)
+							.scroll(ScrollMode.FORWARD_ONLY);
+			int count = 0;
+			while(products.next()){
+				Product product = (Product)products.get(0);
+				productSet.add(product.getProduct_id());
+				product.setIs_visited((byte)1);
+				session.update(product);
+			    if(++count%20 == 0){
+			        session.flush();
+			        session.clear();
+			    }
+			}
+			
+			tran.commit();
+			return productSet;
 		}catch(HibernateException he){
 			if(tran!=null)
 				tran.rollback();
@@ -125,8 +179,7 @@ public class DBManager {
 			   else if(seed.getLink().indexOf(Constant.DANGDANG_OWN) > 0)
 				   seed.setOwn(Constant.DANGDANG);
 			   session.save(seed);
-			   if(++count%20 == 0){//20, same as the JDBC batch size
-			        //flush a batch of inserts and release memory:
+			   if(++count%20 == 0){
 			        session.flush();
 			        session.clear();
 			   }
@@ -177,6 +230,54 @@ public class DBManager {
 				        session.flush();
 				        session.clear();
 				   }
+			   }
+		   }
+			
+			tran.commit();
+			return true;
+		}catch(HibernateException he){
+			if(tran!=null)
+				tran.rollback();
+			log.error(he.getMessage());
+			return false;
+		}finally{
+			session.close();
+		}
+	}
+	
+	/**
+	 *未完，
+	 * @param price
+	 * @return
+	 */
+	public boolean insertPrice(Price price){
+		Session session =  factory.openSession();
+		Transaction tran = null;
+		try{
+			tran = session.beginTransaction();
+		   Iterator<Prices> itr =  price.getPrices().iterator();
+		   int count = 0;
+		   while(itr.hasNext()){
+			   Prices prices = itr.next();
+			   String id = prices.getId();
+			   float p = prices.getP();
+			   //float m = prices.getM();
+			   
+			   Price P = new Price();
+			   P.setDate( new Date());
+			   if(price.getOwn().equals(Constant.JINGDONG))
+				   P.setLink("http://item.jd.com/" + id.replaceAll("J_", "") + ".html");  //对于不同的网站，这也不同
+			   else if(price.getOwn().equals(Constant.DANGDANG))
+				   ;//TODO
+			   else
+				   ;//TODO
+			   P.setOwn(price.getOwn());                                                                //同上
+			   P.setPrice(p);
+			   
+			   session.save(P);
+			   if(++count%20 == 0){
+			        session.flush();
+			        session.clear();
 			   }
 		   }
 			

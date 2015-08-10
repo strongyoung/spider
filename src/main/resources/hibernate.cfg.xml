@@ -29,6 +29,8 @@
    <mapping resource="Sl.hbm.xml"/>
    <!-- 产品表Product -->
    <mapping resource="Product.hbm.xml"/>
+   <!-- 价格表 -->
+   <mapping resource="Price.hbm.xml"/>
 
 </session-factory>
 </hibernate-configuration>

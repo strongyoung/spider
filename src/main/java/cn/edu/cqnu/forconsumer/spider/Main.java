@@ -8,6 +8,10 @@ public class Main {
 	public static void main(String[] args) {
 		//线程个数
 		int iThreadNum = 2;
-		new JDSpider(iThreadNum).startWork();
+		//抓取京东物品分类链接，物品链接
+		//new JDSpider(iThreadNum).startWork();
+		
+		//抓取京东物品价格信息
+		new Thread(new JDGetPrice()).start();
 	}
 }
